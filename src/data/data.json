@@ -4,19 +4,7 @@
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+    "paragraph": "We are a company made up of senior professionals, with a long history in the financial markets, offshore banking and business structures worldwide. We provide solutions to all our clients, whether individuals, entrepreneurs, companies or corporations, our My USA Business team will be by your side from start to finish."
   },
   "Gallery": [
     {
@@ -92,6 +80,28 @@
       "text": "Ideal for new entrepreneurs, we offer all the digital tools for your business to have a presence, no matter where you are."
     }
   ],
+  "Benefits": [
+    {
+      "img": "img/uploads/2022/09/01-1-1024x576.jpg",
+      "name": "We Create Your Company In The United States",
+      "text": "We create your company 100% online, tax free, totally LEGAL and with a high level of anonymity. Ideal for saving dollars or expanding your business."
+    },
+    {
+      "img": "img/uploads/2022/09/02-1-1024x576.jpg",
+      "name": "We Open Offshore Account In Dollars",
+      "text": "We open your savings account in dollars, 100% online, tax free, totally LEGAL and with a high level of anonymity. Ideal for savings outside your country of residence. Include debit card free of charge at your address."
+    },
+    {
+      "img": "img/uploads/2022/09/03-1-1024x576.jpg",
+      "name": "Physical Addresses In The United States",
+      "text": "Physical addresses for you, for your company or business. You can receive invoices, orders, parcels and postal mail."
+    },
+    {
+      "img": "img/uploads/2022/09/04-2-1024x576.jpg",
+      "name": "We Send Your Money Abroad",
+      "text": "We convert your pesos to dollars and send it to your account abroad. 100% online. Free from local banks and with accreditation between 24 and 72 hours."
+    }
+  ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
@@ -150,9 +160,9 @@
     "address": "4321 California St, San Francisco, CA 12345 ",
     "phone": "+1 123 456 1234",
     "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "whatsapp": "https://wa.me/17252570146",
+    "instagram": "http://www.instagram.com/myusabusiness",
+    "mailto": "https://wa.me/17252570146"
   },
   "Features": [
     {
