@@ -45,7 +45,7 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit}>
+              <form name='sentMessage' validate onSubmit={handleSubmit} action='mailto:info@myusabusiness.net' >
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>

@@ -304,7 +304,7 @@ header .intro-text {
 
 /* About Section */
 #about {
-  padding: 100px 0;
+  padding: 0 0 100px 0;
 }
 
 #about h3 {
@@ -359,7 +359,7 @@ header .intro-text {
 
 /* Services Section */
 #service {
-  padding: 100px 0;
+  padding: 100px 0 0 0;
   /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
   color: #1c244b;
 }
@@ -420,7 +420,6 @@ header .intro-text {
 
 /* Benefits Section */
 #benefits {
-  padding: 100px 0;
   /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
   color: #1c244b;
 }
@@ -773,12 +772,55 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #about img {
     margin: 50px 0;
+  }
+  #service .service-desc {
+    margin-top: 40px;
   }
 }
 
 .clearfix {
   clear: left;
 }
+
+@media (min-width: 992px) {
+  #service .service-wrap > div {
+    height: 530px;
+  }
+}
+
+@media (min-width: 768px) {
+  #service .service-wrap > div {
+    height: 580px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #benefits .benefits-wrap > div {
+    height: 370px;
+  }
+}
+
+@media (min-width: 992px) {
+  #benefits .benefits-wrap > div {
+    height: 420px;
+  }
+}
+
+@media (min-width: 768px) {
+  #benefits .benefits-wrap > div {
+    height: 410px;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #about .about-text {
+    padding-top: 30px;
+  }
+}
+
+

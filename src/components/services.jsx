@@ -8,10 +8,10 @@ export const Services = (props) => {
             Our team of professionals will give you a personalized treatment from start to finish in all the procedures and contracted services.
           </p>
         </div>
-        <div className='row'>
+        <div className='row service-wrap'>
           {props.data
             ? props.data.map((d, i) => (
-              <div key={`${d.name}-${i}`} className={'col-xs-4 ' + ((i % 3 === 0) ? 'clearfix' : '')}>
+              <div key={`${d.name}-${i}`} className="col-md-4 col-sm-6 col-12">
                 {' '}
                 {/* <i className={d.icon}></i> */}
                 <img src={d.img} className="img-responsive service-img" alt={d.name} />
